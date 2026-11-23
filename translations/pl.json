@@ -29,7 +29,7 @@
   },
   "quick": {
     "checkin": "Zameldowanie",
-    "checkinValue": "od 18:00",
+    "checkinValue": "od 16:00",
     "checkout": "Wymeldowanie",
     "checkoutValue": "do 12:00",
     "wifi": "Wi-Fi",
@@ -60,7 +60,7 @@
     "eyebrow": "Państwa pobyt",
     "title": "Zameldowanie i wymeldowanie",
     "checkinLabel": "Zameldowanie",
-    "checkinTime": "Od 18:00",
+    "checkinTime": "Od 16:00",
     "checkoutLabel": "Wymeldowanie",
     "checkoutTime": "Do 12:00",
     "groupsLabel": "Grupy",

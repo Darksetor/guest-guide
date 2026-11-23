@@ -29,7 +29,7 @@
   },
   "quick": {
     "checkin": "체크인",
-    "checkinValue": "18:00부터",
+    "checkinValue": "16:00부터",
     "checkout": "체크아웃",
     "checkoutValue": "12:00까지",
     "wifi": "Wi-Fi",
@@ -60,7 +60,7 @@
     "eyebrow": "숙박 안내",
     "title": "체크인 및 체크아웃",
     "checkinLabel": "체크인",
-    "checkinTime": "18:00부터",
+    "checkinTime": "16:00부터",
     "checkoutLabel": "체크아웃",
     "checkoutTime": "12:00까지",
     "groupsLabel": "단체 투숙객",

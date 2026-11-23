@@ -29,7 +29,7 @@
   },
   "quick": {
     "checkin": "Check-in",
-    "checkinValue": "dalle 18:00",
+    "checkinValue": "dalle 16:00",
     "checkout": "Check-out",
     "checkoutValue": "entro le 12:00",
     "wifi": "Wi-Fi",
@@ -60,7 +60,7 @@
     "eyebrow": "Il vostro soggiorno",
     "title": "Check-in e check-out",
     "checkinLabel": "Check-in",
-    "checkinTime": "Dalle 18:00",
+    "checkinTime": "Dalle 16:00",
     "checkoutLabel": "Check-out",
     "checkoutTime": "Entro le 12:00",
     "groupsLabel": "Gruppi",

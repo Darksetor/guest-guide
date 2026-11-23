@@ -28,7 +28,7 @@ Guia digital do hóspede da **Casa São Nuno, Fátima**. Website estático, em 8
 |---|---|
 | **Página inicial** | Logótipo, fotografia de Fátima tirada do hotel, "Welcome to Casa São Nuno" / "Your stay, our hospitality.", botão para explorar o guia, atalhos rápidos (check-in, check-out, Wi-Fi) |
 | **Boas-vindas** | Mensagem de boas-vindas com fotografia real da receção |
-| **Check-in & Check-out** | Check-in a partir das 18:00 · Check-out até às 12:00 · Grupos até às 11:00 · Depósito de bagagem junto à receção |
+| **Check-in & Check-out** | Check-in a partir das 16:00 · Check-out até às 12:00 · Grupos até às 11:00 · Depósito de bagagem junto à receção |
 | **Restaurante e Refeições** | Pequeno-almoço 08:00–10:30 (rés-do-chão) · Almoço 12:30–15:00 (1.º andar) · Jantar 19:00–21:00 (1.º andar) · Aviso dos últimos 30 minutos |
 | **Wi-Fi** | Rede "Casa São Nuno", password 12345678, botão **Copiar password** com confirmação |
 | **Bar** | 1.º andar, junto ao restaurante · 16:00–00:00 · fotografias reais do bar |

@@ -29,7 +29,7 @@
   },
   "quick": {
     "checkin": "Arrivée",
-    "checkinValue": "à partir de 18h00",
+    "checkinValue": "à partir de 16h00",
     "checkout": "Départ",
     "checkoutValue": "jusqu'à 12h00",
     "wifi": "Wi-Fi",
@@ -60,7 +60,7 @@
     "eyebrow": "Votre séjour",
     "title": "Arrivée et départ",
     "checkinLabel": "Arrivée (check-in)",
-    "checkinTime": "À partir de 18h00",
+    "checkinTime": "À partir de 16h00",
     "checkoutLabel": "Départ (check-out)",
     "checkoutTime": "Jusqu'à 12h00",
     "groupsLabel": "Groupes",
