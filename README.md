@@ -218,13 +218,13 @@ Aumente o número da `VERSION` em `service-worker.js` (v1.0.1 → v1.0.2 …). N
 | `lobby-reception.jpg` | Boas-vindas / Receção | **Fotografia real** |
 | `bar-lounge.jpg` | Bar (fotografia principal) | **Fotografia real** |
 | `bar-terrace-view.jpg` | Bar (fotografia secundária) | **Fotografia real** |
-| `breakfast.jpg` | Pequeno-almoço | Ilustração — *substituir por foto real* |
-| `lunch.jpg` | Almoço | Ilustração — *substituir por foto do restaurante* |
-| `dinner.jpg` | Jantar | Ilustração — *substituir por foto do restaurante* |
+| `breakfast.jpg` | Pequeno-almoço (sala de refeições, rés-do-chão) | **Fotografia real** |
+| `lunch.jpg` | Almoço (restaurante, 1.º andar) | **Fotografia real** |
+| `dinner.jpg` | Jantar (mesma foto do restaurante, outro enquadramento) | **Fotografia real** |
 | `restaurant-d-duarte.jpg` | Restaurante D. Duarte | Ilustração — *substituir se tiver autorização para usar uma foto* |
 | `aljustrel.jpg` | Aljustrel | Ilustração — *substituir por foto de Aljustrel* |
 
-Não foram fornecidas fotografias do pequeno-almoço, da sala do restaurante, do Restaurante D. Duarte nem de Aljustrel. Em vez de usar imagens genéricas da internet a fingir ser o hotel, foram desenhadas **ilustrações em linha dourada**, coerentes com a identidade visual, sempre marcadas com a etiqueta **"Imagem ilustrativa"** (traduzida nos 8 idiomas). Logo que tiver as fotografias reais, siga os passos da secção 5.
+Não foram fornecidas fotografias do Restaurante D. Duarte nem de Aljustrel. Em vez de usar imagens genéricas da internet a fingir ser o hotel, foram desenhadas **ilustrações em linha dourada**, coerentes com a identidade visual, sempre marcadas com a etiqueta **"Imagem ilustrativa"** (traduzida nos 8 idiomas). Logo que tiver as fotografias reais, siga os passos da secção 5.
 
 ---
 

@@ -8,7 +8,7 @@
    When you add NEW image files, add them to PRECACHE below
    and increase VERSION (e.g. v1.0.1 → v1.0.2).
    ========================================================= */
-const VERSION = 'csn-guide-v1.0.0';
+const VERSION = 'csn-guide-v1.1.0';
 const CACHE = VERSION;
 
 const PRECACHE = [
