@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "title": "Casa São Nuno · Guia do Hóspede",
+    "description": "Guia digital do hóspede da Casa São Nuno, em Fátima: check-in e check-out, refeições, Wi-Fi, bar, regras do hotel e locais a visitar."
+  },
+  "nav": {
+    "home": "Início",
+    "welcome": "Boas-vindas",
+    "checkin": "Check-in e Check-out",
+    "meals": "Restaurante e Refeições",
+    "wifi": "Wi-Fi",
+    "bar": "Bar",
+    "rules": "Regras do Hotel",
+    "eat": "Onde Comer",
+    "visit": "Locais a Visitar",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "language": "Idioma",
+    "chooseLanguage": "Escolha o seu idioma",
+    "backToTop": "Voltar ao início",
+    "skip": "Saltar para o conteúdo"
+  },
+  "hero": {
+    "eyebrow": "Fátima · Portugal",
+    "title": "Bem-vindo à Casa São Nuno",
+    "subtitle": "A sua estadia, a nossa hospitalidade.",
+    "cta": "Explorar o guia",
+    "install": "Adicionar ao ecrã principal"
+  },
+  "quick": {
+    "checkin": "Check-in",
+    "checkinValue": "a partir das 18:00",
+    "checkout": "Check-out",
+    "checkoutValue": "até às 12:00",
+    "wifi": "Wi-Fi",
+    "wifiValue": "Copiar password"
+  },
+  "guide": {
+    "eyebrow": "Guia do Hóspede",
+    "title": "Tudo para a sua estadia",
+    "text": "Escolha um tema e encontre em poucos segundos a informação de que precisa.",
+    "welcome": "Uma palavra da nossa equipa",
+    "checkin": "Horários e depósito de bagagem",
+    "meals": "Pequeno-almoço, almoço e jantar",
+    "wifi": "Rede e password",
+    "bar": "Localização e horário",
+    "rules": "Pelo sossego e descanso de todos",
+    "eat": "A nossa sugestão nas proximidades",
+    "visit": "Aljustrel, a terra dos pastorinhos"
+  },
+  "welcome": {
+    "eyebrow": "Boas-vindas",
+    "title": "É uma alegria recebê-lo",
+    "p1": "Obrigado por ter escolhido a Casa São Nuno para a sua estadia em Fátima. Preparámos este guia para que tenha sempre à mão tudo aquilo de que precisa: horários, serviços e sugestões para descobrir a região.",
+    "p2": "Desejamos-lhe uma estadia serena e repleta de bons momentos. Se precisar de alguma coisa, a nossa equipa da receção terá todo o gosto em ajudar.",
+    "signature": "A equipa da Casa São Nuno",
+    "photoCaption": "Receção"
+  },
+  "checkin": {
+    "eyebrow": "A sua estadia",
+    "title": "Check-in e Check-out",
+    "checkinLabel": "Check-in",
+    "checkinTime": "A partir das 18:00",
+    "checkoutLabel": "Check-out",
+    "checkoutTime": "Até às 12:00",
+    "groupsLabel": "Grupos",
+    "groupsTime": "Até às 11:00",
+    "groupsText": "Para os hóspedes que viajam em grupo, o check-out deverá ser realizado até às 11:00.",
+    "luggageTitle": "Depósito de bagagem",
+    "luggageText": "Não precisa de se preocupar com a sua bagagem. Dispomos de uma sala junto à receção onde poderá deixar as suas malas antes do check-in ou depois do check-out."
+  },
+  "meals": {
+    "eyebrow": "Restaurante",
+    "title": "Restaurante e Refeições",
+    "intro": "Desfrute das suas refeições num ambiente calmo e acolhedor. Consulte abaixo o horário e a localização de cada refeição.",
+    "breakfast": "Pequeno-almoço",
+    "lunch": "Almoço",
+    "dinner": "Jantar",
+    "breakfastHours": "08:00 – 10:30",
+    "lunchHours": "12:30 – 15:00",
+    "dinnerHours": "19:00 – 21:00",
+    "groundFloor": "Rés-do-chão",
+    "firstFloor": "1.º andar",
+    "hoursLabel": "Horário",
+    "locationLabel": "Localização",
+    "noticeTitle": "Informação importante",
+    "noticeText": "Informamos que, caso entre na sala de refeições durante os últimos 30 minutos do horário de funcionamento, alguns alimentos poderão já não ser repostos."
+  },
+  "wifi": {
+    "eyebrow": "Sempre ligado",
+    "title": "Wi-Fi",
+    "intro": "Ligue-se à nossa rede sem fios com os dados abaixo.",
+    "network": "Rede",
+    "password": "Password",
+    "copy": "Copiar password",
+    "copied": "Password copiada",
+    "copyError": "Não foi possível copiar. Por favor, introduza a password manualmente.",
+    "help": "Abra as definições de Wi-Fi do seu telemóvel, selecione a rede “Casa São Nuno” e cole ou escreva a password."
+  },
+  "bar": {
+    "eyebrow": "Bar",
+    "title": "O Bar",
+    "text": "Um espaço luminoso e acolhedor para descontrair ao fim do dia. Desfrute de um café, de uma bebida ou de uma conversa tranquila, num ambiente calmo e confortável.",
+    "location": "1.º andar, junto ao restaurante",
+    "hours": "16:00 – 00:00"
+  },
+  "rules": {
+    "eyebrow": "Boa convivência",
+    "title": "Regras do Hotel",
+    "intro": "Para que todos possam desfrutar de uma estadia agradável, contamos com a sua colaboração.",
+    "smokingTitle": "Hotel não fumador",
+    "smokingText": "Não é permitido fumar nas instalações do hotel.",
+    "quietTitle": "Período de silêncio",
+    "quietText": "Após as 23:00, pedimos-lhe que evite fazer barulho, respeitando o descanso dos restantes hóspedes.",
+    "thanks": "Obrigado pela sua compreensão."
+  },
+  "eat": {
+    "eyebrow": "Onde comer",
+    "title": "Onde Comer",
+    "intro": "A nossa sugestão para uma refeição em Fátima.",
+    "recommended": "Sugestão",
+    "addressLabel": "Morada"
+  },
+  "visit": {
+    "eyebrow": "Locais a visitar",
+    "title": "Locais a Visitar",
+    "intro": "Fátima e os seus arredores guardam lugares de profundo significado histórico e espiritual. Deixamos-lhe a nossa sugestão.",
+    "aljTitle": "Aljustrel",
+    "aljSubtitle": "A terra dos três pastorinhos",
+    "aljP1": "Aljustrel é uma pequena localidade conhecida por ser a terra de origem dos três pastorinhos de Fátima: Lúcia dos Santos e os seus primos Francisco e Jacinta Marto, que testemunharam as aparições de Nossa Senhora de Fátima em 1917.",
+    "aljP2": "É um lugar de grande importância histórica e espiritual, onde poderá conhecer as antigas casas dos pastorinhos e descobrir um pouco mais sobre a história das aparições de Fátima."
+  },
+  "maps": {
+    "view": "Ver no Google Maps",
+    "directions": "Obter direções"
+  },
+  "install": {
+    "title": "Tenha o guia no seu telemóvel",
+    "text": "Adicione o Guia do Hóspede da Casa São Nuno ao ecrã principal e abra-o como uma aplicação — mesmo sem ligação à internet.",
+    "iosTitle": "No iPhone / iPad (Safari)",
+    "ios1": "Toque no botão Partilhar (na barra de ferramentas ou no menu •••).",
+    "ios2": "Escolha “Adicionar ao ecrã principal”.",
+    "ios3": "Toque em “Adicionar” para confirmar.",
+    "androidTitle": "No Android (Chrome)",
+    "android1": "Abra o menu do navegador (⋮), no canto superior direito.",
+    "android2": "Escolha “Instalar aplicação” ou “Adicionar ao ecrã principal”.",
+    "android3": "Confirme tocando em “Instalar”.",
+    "desktopTitle": "No computador",
+    "desktop1": "Clique no ícone de instalação na barra de endereço, ou abra o menu do navegador e escolha “Instalar”.",
+    "installed": "O guia já está instalado neste dispositivo.",
+    "close": "Fechar"
+  },
+  "common": {
+    "illustrative": "Imagem ilustrativa",
+    "offline": "Está sem ligação à internet. O guia continua disponível.",
+    "online": "Ligação restabelecida."
+  },
+  "footer": {
+    "help": "Precisa de alguma coisa? A nossa equipa da receção terá todo o gosto em ajudar.",
+    "place": "Casa São Nuno · Fátima, Portugal"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "title": "Casa São Nuno · Przewodnik dla Gości",
+    "description": "Cyfrowy przewodnik dla gości Casa São Nuno w Fatimie: zameldowanie i wymeldowanie, posiłki, Wi-Fi, bar, regulamin hotelu i miejsca warte odwiedzenia."
+  },
+  "nav": {
+    "home": "Strona główna",
+    "welcome": "Powitanie",
+    "checkin": "Zameldowanie i wymeldowanie",
+    "meals": "Restauracja i posiłki",
+    "wifi": "Wi-Fi",
+    "bar": "Bar",
+    "rules": "Regulamin hotelu",
+    "eat": "Gdzie zjeść",
+    "visit": "Warte odwiedzenia",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "language": "Język",
+    "chooseLanguage": "Wybierz język",
+    "backToTop": "Powrót na górę",
+    "skip": "Przejdź do treści"
+  },
+  "hero": {
+    "eyebrow": "Fatima · Portugalia",
+    "title": "Witamy w Casa São Nuno",
+    "subtitle": "Państwa pobyt, nasza gościnność.",
+    "cta": "Odkryj przewodnik",
+    "install": "Dodaj do ekranu głównego"
+  },
+  "quick": {
+    "checkin": "Zameldowanie",
+    "checkinValue": "od 18:00",
+    "checkout": "Wymeldowanie",
+    "checkoutValue": "do 12:00",
+    "wifi": "Wi-Fi",
+    "wifiValue": "Kopiuj hasło"
+  },
+  "guide": {
+    "eyebrow": "Przewodnik dla Gości",
+    "title": "Wszystko dla Państwa pobytu",
+    "text": "Prosimy wybrać temat, aby w kilka sekund znaleźć potrzebne informacje.",
+    "welcome": "Kilka słów od naszego zespołu",
+    "checkin": "Godziny i przechowalnia bagażu",
+    "meals": "Śniadanie, obiad i kolacja",
+    "wifi": "Sieć i hasło",
+    "bar": "Lokalizacja i godziny otwarcia",
+    "rules": "Dla spokoju i odpoczynku wszystkich",
+    "eat": "Nasza propozycja w pobliżu",
+    "visit": "Aljustrel, wioska pastuszków"
+  },
+  "welcome": {
+    "eyebrow": "Powitanie",
+    "title": "Z radością Państwa witamy",
+    "p1": "Dziękujemy za wybór Casa São Nuno na pobyt w Fatimie. Przygotowaliśmy ten przewodnik, aby wszystko, czego Państwo potrzebują, było zawsze pod ręką: godziny, usługi oraz propozycje, jak poznać okolicę.",
+    "p2": "Życzymy spokojnego pobytu, pełnego dobrych chwil. W razie jakichkolwiek potrzeb nasz zespół recepcji chętnie pomoże.",
+    "signature": "Zespół Casa São Nuno",
+    "photoCaption": "Recepcja"
+  },
+  "checkin": {
+    "eyebrow": "Państwa pobyt",
+    "title": "Zameldowanie i wymeldowanie",
+    "checkinLabel": "Zameldowanie",
+    "checkinTime": "Od 18:00",
+    "checkoutLabel": "Wymeldowanie",
+    "checkoutTime": "Do 12:00",
+    "groupsLabel": "Grupy",
+    "groupsTime": "Do 11:00",
+    "groupsText": "Gości podróżujących w grupie prosimy o wymeldowanie się do godziny 11:00.",
+    "luggageTitle": "Przechowalnia bagażu",
+    "luggageText": "Nie muszą się Państwo martwić o bagaż. Obok recepcji znajduje się pomieszczenie, w którym można zostawić walizki przed zameldowaniem lub po wymeldowaniu."
+  },
+  "meals": {
+    "eyebrow": "Restauracja",
+    "title": "Restauracja i posiłki",
+    "intro": "Zapraszamy na posiłki w spokojnej i przyjaznej atmosferze. Poniżej znajdą Państwo godziny i miejsce podawania każdego posiłku.",
+    "breakfast": "Śniadanie",
+    "lunch": "Obiad",
+    "dinner": "Kolacja",
+    "breakfastHours": "08:00 – 10:30",
+    "lunchHours": "12:30 – 15:00",
+    "dinnerHours": "19:00 – 21:00",
+    "groundFloor": "Parter",
+    "firstFloor": "1. piętro",
+    "hoursLabel": "Godziny",
+    "locationLabel": "Miejsce",
+    "noticeTitle": "Ważna informacja",
+    "noticeText": "Uprzejmie informujemy, że w przypadku wejścia na salę restauracyjną w ciągu ostatnich 30 minut wydawania posiłków niektóre potrawy mogą nie być już uzupełniane."
+  },
+  "wifi": {
+    "eyebrow": "Zawsze w kontakcie",
+    "title": "Wi-Fi",
+    "intro": "Prosimy połączyć się z naszą siecią bezprzewodową, korzystając z poniższych danych.",
+    "network": "Sieć",
+    "password": "Hasło",
+    "copy": "Kopiuj hasło",
+    "copied": "Hasło skopiowane",
+    "copyError": "Nie udało się skopiować. Prosimy wpisać hasło ręcznie.",
+    "help": "Prosimy otworzyć ustawienia Wi-Fi w telefonie, wybrać sieć „Casa São Nuno” i wkleić lub wpisać hasło."
+  },
+  "bar": {
+    "eyebrow": "Bar",
+    "title": "Bar",
+    "text": "Jasne i przytulne miejsce, w którym można odpocząć pod koniec dnia. Zapraszamy na kawę, drinka lub spokojną rozmowę w cichym i komfortowym otoczeniu.",
+    "location": "1. piętro, obok restauracji",
+    "hours": "16:00 – 00:00"
+  },
+  "rules": {
+    "eyebrow": "Wspólny wypoczynek",
+    "title": "Regulamin hotelu",
+    "intro": "Aby wszyscy mogli cieszyć się przyjemnym pobytem, uprzejmie prosimy o współpracę.",
+    "smokingTitle": "Hotel dla niepalących",
+    "smokingText": "Palenie na terenie hotelu jest zabronione.",
+    "quietTitle": "Cisza nocna",
+    "quietText": "Po godzinie 23:00 uprzejmie prosimy o zachowanie ciszy, z szacunku dla odpoczynku pozostałych gości.",
+    "thanks": "Dziękujemy za zrozumienie."
+  },
+  "eat": {
+    "eyebrow": "Gdzie zjeść",
+    "title": "Gdzie zjeść",
+    "intro": "Nasza propozycja na posiłek w Fatimie.",
+    "recommended": "Polecamy",
+    "addressLabel": "Adres"
+  },
+  "visit": {
+    "eyebrow": "Warte odwiedzenia",
+    "title": "Miejsca warte odwiedzenia",
+    "intro": "Fatima i jej okolice kryją miejsca o głębokim znaczeniu historycznym i duchowym. Oto nasza propozycja.",
+    "aljTitle": "Aljustrel",
+    "aljSubtitle": "Wioska trojga pastuszków",
+    "aljP1": "Aljustrel to niewielka wioska znana jako miejsce pochodzenia trojga pastuszków z Fatimy: Łucji dos Santos oraz jej kuzynostwa, Franciszka i Hiacynty Marto, którzy w 1917 roku byli świadkami objawień Matki Bożej Fatimskiej.",
+    "aljP2": "To miejsce o wielkim znaczeniu historycznym i duchowym, gdzie można zobaczyć dawne domy pastuszków i lepiej poznać historię objawień fatimskich."
+  },
+  "maps": {
+    "view": "Zobacz w Mapach Google",
+    "directions": "Wyznacz trasę"
+  },
+  "install": {
+    "title": "Przewodnik zawsze w telefonie",
+    "text": "Dodaj Przewodnik dla Gości Casa São Nuno do ekranu głównego i otwieraj go jak aplikację — nawet bez dostępu do internetu.",
+    "iosTitle": "Na iPhonie / iPadzie (Safari)",
+    "ios1": "Stuknij przycisk Udostępnij (na pasku narzędzi lub w menu •••).",
+    "ios2": "Wybierz „Do ekranu początkowego”.",
+    "ios3": "Stuknij „Dodaj”, aby potwierdzić.",
+    "androidTitle": "Na Androidzie (Chrome)",
+    "android1": "Otwórz menu przeglądarki (⋮) w prawym górnym rogu.",
+    "android2": "Wybierz „Zainstaluj aplikację” lub „Dodaj do ekranu głównego”.",
+    "android3": "Potwierdź, stukając „Zainstaluj”.",
+    "desktopTitle": "Na komputerze",
+    "desktop1": "Kliknij ikonę instalacji na pasku adresu albo otwórz menu przeglądarki i wybierz „Zainstaluj”.",
+    "installed": "Przewodnik jest już zainstalowany na tym urządzeniu.",
+    "close": "Zamknij"
+  },
+  "common": {
+    "illustrative": "Ilustracja poglądowa",
+    "offline": "Brak połączenia z internetem. Przewodnik jest nadal dostępny.",
+    "online": "Połączenie przywrócone."
+  },
+  "footer": {
+    "help": "Potrzebują Państwo pomocy? Nasz zespół recepcji chętnie pomoże.",
+    "place": "Casa São Nuno · Fatima, Portugalia"
+  }
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Casa São Nuno · Offline</title>
+  <meta name="theme-color" content="#FBF8F2">
+  <link rel="icon" type="image/png" href="./assets/icons/favicon-32.png">
+  <style>
+    :root { --ivory:#FBF8F2; --cream:#F3ECDF; --gold:#B08D57; --gold-deep:#8A6A36; --ink:#2E2924; --ink-2:#554C42; }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body { margin: 0; display: grid; place-items: center; padding: 24px 16px; background: linear-gradient(180deg, var(--ivory), var(--cream)); color: var(--ink);
+      font-family: "Jost", "Segoe UI", system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; text-align: center; line-height: 1.6; }
+    main { max-width: 420px; }
+    img { width: 84px; height: auto; margin: 0 auto 20px; display: block; }
+    h1 { font-family: "Cormorant Garamond", Georgia, "Noto Serif KR", serif; font-weight: 500; font-size: 2.1rem; line-height: 1.15; margin: 0 0 12px; }
+    p { color: var(--ink-2); margin: 0 0 24px; }
+    button { min-height: 50px; padding: 0 28px; border-radius: 999px; border: 0; cursor: pointer; font: inherit; font-weight: 500; color: #fff;
+      background: linear-gradient(135deg, #C2A06A, var(--gold) 45%, var(--gold-deep)); box-shadow: 0 8px 22px rgba(138,106,54,.28); }
+    .line { width: 56px; height: 1px; background: var(--gold); margin: 0 auto 20px; opacity: .6; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./assets/images/logo-casa-sao-nuno.png" alt="Casa São Nuno">
+    <h1 id="t">You are offline</h1>
+    <div class="line"></div>
+    <p id="m">Please check your internet connection. Once the guide has been opened with a connection, it remains available on this device.</p>
+    <button type="button" id="b" onclick="location.href='./'">Try again</button>
+  </main>
+  <script>
+    (function () {
+      var T = {
+        pt: ['Sem ligação à internet', 'Verifique a sua ligação à internet. Depois de abrir o guia com ligação, este fica disponível neste dispositivo.', 'Tentar novamente'],
+        en: ['You are offline', 'Please check your internet connection. Once the guide has been opened with a connection, it remains available on this device.', 'Try again'],
+        fr: ['Vous êtes hors ligne', 'Veuillez vérifier votre connexion internet. Une fois le guide ouvert avec une connexion, il reste disponible sur cet appareil.', 'Réessayer'],
+        pl: ['Brak połączenia z internetem', 'Prosimy sprawdzić połączenie z internetem. Po otwarciu przewodnika z dostępem do sieci pozostaje on dostępny na tym urządzeniu.', 'Spróbuj ponownie'],
+        it: ['Siete offline', 'Verificate la connessione internet. Dopo averla aperta con una connessione, la guida resta disponibile su questo dispositivo.', 'Riprova'],
+        es: ['Está sin conexión', 'Compruebe su conexión a internet. Una vez abierta la guía con conexión, seguirá disponible en este dispositivo.', 'Reintentar'],
+        de: ['Sie sind offline', 'Bitte prüfen Sie Ihre Internetverbindung. Sobald die Gästemappe einmal mit Verbindung geöffnet wurde, bleibt sie auf diesem Gerät verfügbar.', 'Erneut versuchen'],
+        ko: ['인터넷에 연결되어 있지 않습니다', '인터넷 연결을 확인해 주세요. 한 번 인터넷에 연결된 상태로 안내서를 열면 이 기기에서 계속 이용하실 수 있습니다.', '다시 시도']
+      };
+      var lang = null;
+      try { lang = localStorage.getItem('csn-guest-guide-lang'); } catch (e) {}
+      var prefs = [lang].concat(navigator.languages || [], navigator.language || []);
+      for (var i = 0; i < prefs.length; i++) {
+        var c = prefs[i] && String(prefs[i]).toLowerCase().split(/[-_]/)[0];
+        if (c && T[c]) { lang = c; break; }
+        lang = null;
+      }
+      lang = lang || 'en';
+      document.documentElement.lang = lang === 'pt' ? 'pt-PT' : lang;
+      document.getElementById('t').textContent = T[lang][0];
+      document.getElementById('m').textContent = T[lang][1];
+      document.getElementById('b').textContent = T[lang][2];
+    })();
+  </script>
+</body>
+</html>

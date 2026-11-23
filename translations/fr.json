@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "title": "Casa São Nuno · Guide du Client",
+    "description": "Guide numérique de la Casa São Nuno à Fátima : arrivée et départ, repas, Wi-Fi, bar, règlement de l'hôtel et lieux à visiter."
+  },
+  "nav": {
+    "home": "Accueil",
+    "welcome": "Bienvenue",
+    "checkin": "Arrivée et départ",
+    "meals": "Restaurant et repas",
+    "wifi": "Wi-Fi",
+    "bar": "Bar",
+    "rules": "Règlement de l'hôtel",
+    "eat": "Où manger",
+    "visit": "Lieux à visiter",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "chooseLanguage": "Choisissez votre langue",
+    "backToTop": "Retour en haut",
+    "skip": "Aller au contenu"
+  },
+  "hero": {
+    "eyebrow": "Fátima · Portugal",
+    "title": "Bienvenue à la Casa São Nuno",
+    "subtitle": "Votre séjour, notre hospitalité.",
+    "cta": "Découvrir le guide",
+    "install": "Ajouter à l'écran d'accueil"
+  },
+  "quick": {
+    "checkin": "Arrivée",
+    "checkinValue": "à partir de 18h00",
+    "checkout": "Départ",
+    "checkoutValue": "jusqu'à 12h00",
+    "wifi": "Wi-Fi",
+    "wifiValue": "Copier le mot de passe"
+  },
+  "guide": {
+    "eyebrow": "Guide du client",
+    "title": "Tout pour votre séjour",
+    "text": "Choisissez un thème et trouvez en quelques secondes l'information dont vous avez besoin.",
+    "welcome": "Un mot de notre équipe",
+    "checkin": "Horaires et consigne à bagages",
+    "meals": "Petit-déjeuner, déjeuner et dîner",
+    "wifi": "Réseau et mot de passe",
+    "bar": "Emplacement et horaires",
+    "rules": "Pour la tranquillité de tous",
+    "eat": "Notre suggestion à proximité",
+    "visit": "Aljustrel, le village des petits bergers"
+  },
+  "welcome": {
+    "eyebrow": "Bienvenue",
+    "title": "C'est une joie de vous accueillir",
+    "p1": "Merci d'avoir choisi la Casa São Nuno pour votre séjour à Fátima. Nous avons préparé ce guide afin que vous ayez toujours sous la main tout ce dont vous avez besoin : horaires, services et suggestions pour découvrir la région.",
+    "p2": "Nous vous souhaitons un séjour serein et riche en beaux moments. Pour toute demande, notre équipe de la réception se fera un plaisir de vous aider.",
+    "signature": "L'équipe de la Casa São Nuno",
+    "photoCaption": "Réception"
+  },
+  "checkin": {
+    "eyebrow": "Votre séjour",
+    "title": "Arrivée et départ",
+    "checkinLabel": "Arrivée (check-in)",
+    "checkinTime": "À partir de 18h00",
+    "checkoutLabel": "Départ (check-out)",
+    "checkoutTime": "Jusqu'à 12h00",
+    "groupsLabel": "Groupes",
+    "groupsTime": "Jusqu'à 11h00",
+    "groupsText": "Les clients voyageant en groupe sont priés de libérer leur chambre avant 11h00.",
+    "luggageTitle": "Consigne à bagages",
+    "luggageText": "Ne vous souciez pas de vos bagages. Nous disposons d'une salle à côté de la réception où vous pouvez déposer vos valises avant votre arrivée ou après votre départ."
+  },
+  "meals": {
+    "eyebrow": "Restaurant",
+    "title": "Restaurant et repas",
+    "intro": "Savourez vos repas dans une atmosphère calme et chaleureuse. Vous trouverez ci-dessous les horaires et l'emplacement de chaque repas.",
+    "breakfast": "Petit-déjeuner",
+    "lunch": "Déjeuner",
+    "dinner": "Dîner",
+    "breakfastHours": "8h00 – 10h30",
+    "lunchHours": "12h30 – 15h00",
+    "dinnerHours": "19h00 – 21h00",
+    "groundFloor": "Rez-de-chaussée",
+    "firstFloor": "1er étage",
+    "hoursLabel": "Horaires",
+    "locationLabel": "Emplacement",
+    "noticeTitle": "Information importante",
+    "noticeText": "Nous vous informons que si vous entrez dans la salle à manger pendant les 30 dernières minutes du service, certains plats pourraient ne plus être réapprovisionnés."
+  },
+  "wifi": {
+    "eyebrow": "Restez connecté",
+    "title": "Wi-Fi",
+    "intro": "Connectez-vous à notre réseau sans fil grâce aux informations ci-dessous.",
+    "network": "Réseau",
+    "password": "Mot de passe",
+    "copy": "Copier le mot de passe",
+    "copied": "Mot de passe copié",
+    "copyError": "Copie impossible. Veuillez saisir le mot de passe manuellement.",
+    "help": "Ouvrez les réglages Wi-Fi de votre téléphone, sélectionnez le réseau « Casa São Nuno » puis collez ou saisissez le mot de passe."
+  },
+  "bar": {
+    "eyebrow": "Bar",
+    "title": "Le Bar",
+    "text": "Un espace lumineux et accueillant pour vous détendre en fin de journée. Savourez un café, une boisson ou une conversation tranquille dans un cadre calme et confortable.",
+    "location": "1er étage, à côté du restaurant",
+    "hours": "16h00 – 00h00"
+  },
+  "rules": {
+    "eyebrow": "Bien vivre ensemble",
+    "title": "Règlement de l'hôtel",
+    "intro": "Afin que chacun profite d'un séjour agréable, nous comptons sur votre collaboration.",
+    "smokingTitle": "Hôtel non-fumeur",
+    "smokingText": "Il est interdit de fumer dans l'enceinte de l'hôtel.",
+    "quietTitle": "Heures de silence",
+    "quietText": "Après 23h00, nous vous prions d'éviter tout bruit, par respect pour le repos des autres clients.",
+    "thanks": "Merci de votre compréhension."
+  },
+  "eat": {
+    "eyebrow": "Où manger",
+    "title": "Où manger",
+    "intro": "Notre suggestion pour un repas à Fátima.",
+    "recommended": "Suggestion",
+    "addressLabel": "Adresse"
+  },
+  "visit": {
+    "eyebrow": "Lieux à visiter",
+    "title": "Lieux à visiter",
+    "intro": "Fátima et ses environs abritent des lieux d'une profonde signification historique et spirituelle. Voici notre suggestion.",
+    "aljTitle": "Aljustrel",
+    "aljSubtitle": "Le village des trois petits bergers",
+    "aljP1": "Aljustrel est un petit village connu pour être le lieu d'origine des trois petits bergers de Fátima : Lucie dos Santos et ses cousins François et Jacinthe Marto, témoins des apparitions de Notre-Dame de Fátima en 1917.",
+    "aljP2": "C'est un lieu d'une grande importance historique et spirituelle, où vous pourrez découvrir les anciennes maisons des petits bergers et en apprendre davantage sur l'histoire des apparitions de Fátima."
+  },
+  "maps": {
+    "view": "Voir sur Google Maps",
+    "directions": "Itinéraire"
+  },
+  "install": {
+    "title": "Gardez le guide sur votre téléphone",
+    "text": "Ajoutez le Guide du Client de la Casa São Nuno à votre écran d'accueil et ouvrez-le comme une application, même sans connexion internet.",
+    "iosTitle": "Sur iPhone / iPad (Safari)",
+    "ios1": "Touchez le bouton Partager (dans la barre d'outils ou dans le menu •••).",
+    "ios2": "Choisissez « Sur l'écran d'accueil ».",
+    "ios3": "Touchez « Ajouter » pour confirmer.",
+    "androidTitle": "Sur Android (Chrome)",
+    "android1": "Ouvrez le menu du navigateur (⋮) en haut à droite.",
+    "android2": "Choisissez « Installer l'application » ou « Ajouter à l'écran d'accueil ».",
+    "android3": "Confirmez en touchant « Installer ».",
+    "desktopTitle": "Sur ordinateur",
+    "desktop1": "Cliquez sur l'icône d'installation dans la barre d'adresse, ou ouvrez le menu du navigateur et choisissez « Installer ».",
+    "installed": "Le guide est déjà installé sur cet appareil.",
+    "close": "Fermer"
+  },
+  "common": {
+    "illustrative": "Image d'illustration",
+    "offline": "Vous êtes hors ligne. Le guide reste disponible.",
+    "online": "Connexion rétablie."
+  },
+  "footer": {
+    "help": "Besoin de quoi que ce soit ? Notre équipe de la réception se fera un plaisir de vous aider.",
+    "place": "Casa São Nuno · Fátima, Portugal"
+  }
+}

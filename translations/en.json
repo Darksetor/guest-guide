@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "title": "Casa São Nuno · Guest Guide",
+    "description": "Digital guest guide of Casa São Nuno in Fátima: check-in and check-out, meals, Wi-Fi, bar, hotel rules and places to visit."
+  },
+  "nav": {
+    "home": "Home",
+    "welcome": "Welcome",
+    "checkin": "Check-in & Check-out",
+    "meals": "Restaurant & Meals",
+    "wifi": "Wi-Fi",
+    "bar": "Bar",
+    "rules": "Hotel Rules",
+    "eat": "Places to Eat",
+    "visit": "Places to Visit",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "chooseLanguage": "Choose your language",
+    "backToTop": "Back to top",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "Fátima · Portugal",
+    "title": "Welcome to Casa São Nuno",
+    "subtitle": "Your stay, our hospitality.",
+    "cta": "Explore the guide",
+    "install": "Add to home screen"
+  },
+  "quick": {
+    "checkin": "Check-in",
+    "checkinValue": "from 18:00",
+    "checkout": "Check-out",
+    "checkoutValue": "until 12:00",
+    "wifi": "Wi-Fi",
+    "wifiValue": "Copy password"
+  },
+  "guide": {
+    "eyebrow": "Guest Guide",
+    "title": "Everything for your stay",
+    "text": "Choose a topic to find the information you need in seconds.",
+    "welcome": "A word from our team",
+    "checkin": "Times and luggage storage",
+    "meals": "Breakfast, lunch and dinner",
+    "wifi": "Network and password",
+    "bar": "Location and opening hours",
+    "rules": "For everyone's peace and rest",
+    "eat": "Our suggestion nearby",
+    "visit": "Aljustrel, home of the shepherd children"
+  },
+  "welcome": {
+    "eyebrow": "Welcome",
+    "title": "It is a joy to welcome you",
+    "p1": "Thank you for choosing Casa São Nuno for your stay in Fátima. We have prepared this guide so that everything you need is always at hand: times, services and suggestions to discover the region.",
+    "p2": "We wish you a peaceful stay, full of good moments. If you need anything at all, our reception team will be delighted to help.",
+    "signature": "The Casa São Nuno team",
+    "photoCaption": "Reception"
+  },
+  "checkin": {
+    "eyebrow": "Your stay",
+    "title": "Check-in & Check-out",
+    "checkinLabel": "Check-in",
+    "checkinTime": "From 18:00",
+    "checkoutLabel": "Check-out",
+    "checkoutTime": "Until 12:00",
+    "groupsLabel": "Groups",
+    "groupsTime": "Until 11:00",
+    "groupsText": "Guests travelling in a group are kindly asked to check out by 11:00.",
+    "luggageTitle": "Luggage storage",
+    "luggageText": "No need to worry about your luggage. We have a room next to reception where you can leave your bags before check-in or after check-out."
+  },
+  "meals": {
+    "eyebrow": "Restaurant",
+    "title": "Restaurant & Meals",
+    "intro": "Enjoy your meals in a calm and welcoming atmosphere. Below you will find the hours and location of each meal.",
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "breakfastHours": "08:00 – 10:30",
+    "lunchHours": "12:30 – 15:00",
+    "dinnerHours": "19:00 – 21:00",
+    "groundFloor": "Ground floor",
+    "firstFloor": "1st floor",
+    "hoursLabel": "Hours",
+    "locationLabel": "Location",
+    "noticeTitle": "Please note",
+    "noticeText": "If you enter the dining room during the last 30 minutes of service, some dishes may no longer be replenished."
+  },
+  "wifi": {
+    "eyebrow": "Stay connected",
+    "title": "Wi-Fi",
+    "intro": "Connect to our wireless network with the details below.",
+    "network": "Network",
+    "password": "Password",
+    "copy": "Copy password",
+    "copied": "Password copied",
+    "copyError": "Could not copy. Please enter the password manually.",
+    "help": "Open your phone's Wi-Fi settings, select the network “Casa São Nuno” and paste or type the password."
+  },
+  "bar": {
+    "eyebrow": "Bar",
+    "title": "The Bar",
+    "text": "A bright and welcoming space to unwind at the end of the day. Enjoy a coffee, a drink or a quiet conversation in a calm and comfortable setting.",
+    "location": "1st floor, next to the restaurant",
+    "hours": "16:00 – 00:00"
+  },
+  "rules": {
+    "eyebrow": "Living together",
+    "title": "Hotel Rules",
+    "intro": "To ensure a pleasant stay for everyone, we kindly ask for your cooperation.",
+    "smokingTitle": "Non-smoking hotel",
+    "smokingText": "Smoking is not permitted anywhere on the hotel premises.",
+    "quietTitle": "Quiet hours",
+    "quietText": "After 23:00, we kindly ask you to avoid making noise, out of respect for other guests' rest.",
+    "thanks": "Thank you for your understanding."
+  },
+  "eat": {
+    "eyebrow": "Places to eat",
+    "title": "Places to Eat",
+    "intro": "Our suggestion for a meal in Fátima.",
+    "recommended": "Recommendation",
+    "addressLabel": "Address"
+  },
+  "visit": {
+    "eyebrow": "Places to visit",
+    "title": "Places to Visit",
+    "intro": "Fátima and its surroundings hold places of deep historical and spiritual meaning. Here is our suggestion.",
+    "aljTitle": "Aljustrel",
+    "aljSubtitle": "The land of the three shepherd children",
+    "aljP1": "Aljustrel is a small village known as the birthplace of the three shepherd children of Fátima: Lúcia dos Santos and her cousins Francisco and Jacinta Marto, who witnessed the apparitions of Our Lady of Fátima in 1917.",
+    "aljP2": "It is a place of great historical and spiritual importance, where you can visit the former homes of the shepherd children and discover more about the story of the apparitions of Fátima."
+  },
+  "maps": {
+    "view": "View on Google Maps",
+    "directions": "Get Directions"
+  },
+  "install": {
+    "title": "Keep the guide on your phone",
+    "text": "Add the Casa São Nuno Guest Guide to your home screen and open it like an app — even without an internet connection.",
+    "iosTitle": "On iPhone / iPad (Safari)",
+    "ios1": "Tap the Share button (in the toolbar or in the ••• menu).",
+    "ios2": "Choose “Add to Home Screen”.",
+    "ios3": "Tap “Add” to confirm.",
+    "androidTitle": "On Android (Chrome)",
+    "android1": "Open the browser menu (⋮) at the top right.",
+    "android2": "Choose “Install app” or “Add to Home screen”.",
+    "android3": "Confirm by tapping “Install”.",
+    "desktopTitle": "On a computer",
+    "desktop1": "Click the install icon in the address bar, or open the browser menu and choose “Install”.",
+    "installed": "The guide is already installed on this device.",
+    "close": "Close"
+  },
+  "common": {
+    "illustrative": "Illustrative image",
+    "offline": "You are offline. The guide remains available.",
+    "online": "Connection restored."
+  },
+  "footer": {
+    "help": "Need anything? Our reception team will be delighted to help.",
+    "place": "Casa São Nuno · Fátima, Portugal"
+  }
+}

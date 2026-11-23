@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Casa São Nuno · Guest Guide</title>
+  <meta name="description" content="Digital guest guide of Casa São Nuno in Fátima: check-in and check-out, meals, Wi-Fi, bar, hotel rules and places to visit.">
+  <meta name="theme-color" content="#FBF8F2">
+  <meta name="color-scheme" content="light">
+
+  <!-- PWA -->
+  <link rel="manifest" href="./manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Casa São Nuno">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="./assets/icons/favicon-48.png">
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Casa São Nuno · Guest Guide">
+  <meta property="og:description" content="Your stay, our hospitality.">
+  <meta property="og:image" content="./assets/images/hero-fatima.jpg">
+
+  <link rel="preload" href="./assets/fonts/cormorant-garamond-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/images/hero-fatima.jpg" as="image">
+  <link rel="stylesheet" href="./styles.css">
+  <script>document.documentElement.className = 'js i18n-pending';</script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-welcome" viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2Z"/></symbol>
+      <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="12" r="3.6"/><path d="M11.6 12H21M17.5 12v3M20 12v2.2"/></symbol>
+      <symbol id="i-checkin" viewBox="0 0 24 24"><path d="M14 4h4.5A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5H14"/><path d="M4 12h10.5M11 8.5l3.5 3.5-3.5 3.5"/></symbol>
+      <symbol id="i-checkout" viewBox="0 0 24 24"><path d="M10 4H5.5A1.5 1.5 0 0 0 4 5.5v13A1.5 1.5 0 0 0 5.5 20H10"/><path d="M9.5 12H20M16.5 8.5 20 12l-3.5 3.5"/></symbol>
+      <symbol id="i-group" viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="16.5" cy="9.5" r="2.4"/><path d="M15.5 14.2c2.6-.3 4.6 1.3 5 4.3"/></symbol>
+      <symbol id="i-luggage" viewBox="0 0 24 24"><rect x="5.5" y="7" width="13" height="12.5" rx="2"/><path d="M9.5 7V4.8c0-.5.4-.8.8-.8h3.4c.5 0 .8.4.8.8V7M9.5 10.5v5.5M14.5 10.5v5.5M8 19.5v1M16 19.5v1"/></symbol>
+      <symbol id="i-meals" viewBox="0 0 24 24"><path d="M7 3.5V11M4.5 3.5V9a2.5 2.5 0 0 0 5 0V3.5M7 11v9.5"/><path d="M17 20.5V3.5c-2.3 1.2-3.5 3.6-3.5 7.3V13H17"/></symbol>
+      <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4.5 9.5h11v4.5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5Z"/><path d="M15.5 11h1.3a2.2 2.2 0 0 1 0 4.4h-1.6M8 3.5c-.8 1 .8 2 0 3M11 3.5c-.8 1 .8 2 0 3"/><path d="M3.5 21h14"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.5 14.8A7.8 7.8 0 1 1 9.2 4.5a6.3 6.3 0 0 0 10.3 10.3Z"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+      <symbol id="i-stairs" viewBox="0 0 24 24"><path d="M3.5 19.5h4.5v-4h4v-4h4v-4h4.5"/></symbol>
+      <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2.8 9.2a13.5 13.5 0 0 1 18.4 0M6 12.6a8.8 8.8 0 0 1 12 0M9.2 16a4.2 4.2 0 0 1 5.6 0"/><circle cx="12" cy="19" r=".9" fill="currentColor"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8.5 10.5V7.8a3.5 3.5 0 0 1 7 0v2.7"/><circle cx="12" cy="15.2" r="1.1"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2"/><path d="M15.5 8.5V6a1.5 1.5 0 0 0-1.5-1.5H6A1.5 1.5 0 0 0 4.5 6v8A1.5 1.5 0 0 0 6 15.5h2.5"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-bar" viewBox="0 0 24 24"><path d="M5 4.5h14L12 12.5Z"/><path d="M12 12.5v7M8 20h8M7.5 7.5h9"/></symbol>
+      <symbol id="i-rules" viewBox="0 0 24 24"><path d="M12 3.5l7 2.8v5c0 4.3-2.9 8-7 9.2-4.1-1.2-7-4.9-7-9.2v-5Z"/><path d="M9 12l2 2 4-4"/></symbol>
+      <symbol id="i-nosmoke" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M6 6l12 12M7.5 13.5h6M15.5 13.5h1M15.5 10.5c0-1.2 1.6-1.2 1.6-2.4"/></symbol>
+      <symbol id="i-quiet" viewBox="0 0 24 24"><path d="M15.5 4.5A7.5 7.5 0 1 0 19.5 16a6 6 0 0 1-4-11.5Z"/><path d="M17 4h3l-3 3.5h3"/></symbol>
+      <symbol id="i-fork" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5.5"/><path d="M3.5 4v5.5a1.5 1.5 0 0 0 3 0V4M5 11v9M20.5 20V4c-1.4.8-2 2.6-2 5v4h2"/></symbol>
+      <symbol id="i-visit" viewBox="0 0 24 24"><path d="M3.5 20.5h17M5.5 20.5V11l6.5-5 6.5 5v9.5"/><path d="M10 20.5v-5h4v5M12 6V3M10.6 4.4h2.8"/></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4.5 3.5 6.5v13l5.5-2 6 2 5.5-2v-13l-5.5 2Z"/><path d="M9 4.5v13M15 6.5v13"/></symbol>
+      <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.2 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.8"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.3 2.4 3.4 5.2 3.4 8.5s-1.1 6.1-3.4 8.5c-2.3-2.4-3.4-5.2-3.4-8.5S9.7 5.9 12 3.5Z"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7.5h16M4 12h16M4 16.5h10"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+      <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5.5M6 11.5l6-6 6 6"/></symbol>
+      <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v13.5M6 12.5l6 6 6-6"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M9.5 6l6 6-6 6"/></symbol>
+      <symbol id="i-install" viewBox="0 0 24 24"><rect x="6.5" y="2.8" width="11" height="18.4" rx="2.4"/><path d="M12 7.5v7M9 11.8l3 3 3-3M10.5 18h3"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5"/><circle cx="12" cy="7.8" r=".9" fill="currentColor"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.5l1.9 7.6L21.5 12l-7.6 1.9L12 21.5l-1.9-7.6L2.5 12l7.6-1.9Z"/></symbol>
+      <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 3.5v11M8 7.5l4-4 4 4"/><path d="M8 10.5H6.5A1.5 1.5 0 0 0 5 12v7a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19v-7a1.5 1.5 0 0 0-1.5-1.5H16"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Casa São Nuno">
+        <img src="./assets/images/logo-casa-sao-nuno.png" alt="" width="26" height="35" class="brand-logo">
+        <span class="brand-text">Casa São Nuno</span>
+      </a>
+      <div class="header-actions">
+        <div class="lang" data-lang-root>
+          <button class="lang-btn" type="button" aria-haspopup="listbox" aria-expanded="false" data-lang-toggle data-i18n-attr="aria-label:nav.chooseLanguage">
+            <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+            <span class="lang-current" data-lang-current>EN</span>
+          </button>
+          <ul class="lang-list" role="listbox" data-lang-list hidden>
+            <li><button type="button" role="option" data-lang="pt" lang="pt-PT"><span class="lang-code">PT</span> Português</button></li>
+            <li><button type="button" role="option" data-lang="en" lang="en"><span class="lang-code">EN</span> English</button></li>
+            <li><button type="button" role="option" data-lang="fr" lang="fr"><span class="lang-code">FR</span> Français</button></li>
+            <li><button type="button" role="option" data-lang="pl" lang="pl"><span class="lang-code">PL</span> Polski</button></li>
+            <li><button type="button" role="option" data-lang="it" lang="it"><span class="lang-code">IT</span> Italiano</button></li>
+            <li><button type="button" role="option" data-lang="es" lang="es"><span class="lang-code">ES</span> Español</button></li>
+            <li><button type="button" role="option" data-lang="de" lang="de"><span class="lang-code">DE</span> Deutsch</button></li>
+            <li><button type="button" role="option" data-lang="ko" lang="ko"><span class="lang-code">KO</span> 한국어</button></li>
+          </ul>
+        </div>
+        <button class="menu-btn" type="button" aria-controls="drawer" aria-expanded="false" data-menu-open data-i18n-attr="aria-label:nav.openMenu">
+          <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== DRAWER MENU ===================== -->
+  <div class="drawer-backdrop" data-menu-close hidden></div>
+  <nav class="drawer" id="drawer" aria-hidden="true" data-drawer>
+    <div class="drawer-head">
+      <span class="drawer-title">Casa São Nuno</span>
+      <button class="icon-btn" type="button" data-menu-close data-i18n-attr="aria-label:nav.closeMenu">
+        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+    </div>
+    <ul class="drawer-links">
+      <li><a href="#home"><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg><span data-i18n="nav.home">Home</span></a></li>
+      <li><a href="#welcome"><svg class="icon" aria-hidden="true"><use href="#i-welcome"/></svg><span data-i18n="nav.welcome">Welcome</span></a></li>
+      <li><a href="#checkin"><svg class="icon" aria-hidden="true"><use href="#i-key"/></svg><span data-i18n="nav.checkin">Check-in &amp; Check-out</span></a></li>
+      <li><a href="#meals"><svg class="icon" aria-hidden="true"><use href="#i-meals"/></svg><span data-i18n="nav.meals">Restaurant &amp; Meals</span></a></li>
+      <li><a href="#wifi"><svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg><span data-i18n="nav.wifi">Wi-Fi</span></a></li>
+      <li><a href="#bar"><svg class="icon" aria-hidden="true"><use href="#i-bar"/></svg><span data-i18n="nav.bar">Bar</span></a></li>
+      <li><a href="#rules"><svg class="icon" aria-hidden="true"><use href="#i-rules"/></svg><span data-i18n="nav.rules">Hotel Rules</span></a></li>
+      <li><a href="#eat"><svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg><span data-i18n="nav.eat">Places to Eat</span></a></li>
+      <li><a href="#visit"><svg class="icon" aria-hidden="true"><use href="#i-visit"/></svg><span data-i18n="nav.visit">Places to Visit</span></a></li>
+    </ul>
+    <button class="btn btn-ghost drawer-install" type="button" data-install-open>
+      <svg class="icon" aria-hidden="true"><use href="#i-install"/></svg>
+      <span data-i18n="hero.install">Add to home screen</span>
+    </button>
+  </nav>
+
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-media">
+        <img src="./assets/images/hero-fatima.jpg" alt="Fátima" width="1280" height="960" fetchpriority="high" data-i18n-attr="alt:hero.eyebrow">
+      </div>
+      <div class="hero-veil" aria-hidden="true"></div>
+      <div class="hero-rays" aria-hidden="true"></div>
+      <div class="hero-content">
+        <img class="hero-logo" src="./assets/images/logo-casa-sao-nuno.png" alt="Casa São Nuno Hotel" width="370" height="503">
+        <p class="eyebrow hero-eyebrow" data-i18n="hero.eyebrow">Fátima · Portugal</p>
+        <h1 class="hero-title" id="hero-title" data-i18n="hero.title">Welcome to Casa São Nuno</h1>
+        <div class="ornament" aria-hidden="true"><span></span><svg class="icon"><use href="#i-star"/></svg><span></span></div>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Your stay, our hospitality.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#guide">
+            <span data-i18n="hero.cta">Explore the guide</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-down"/></svg>
+          </a>
+          <button class="btn btn-glass" type="button" data-install-open>
+            <svg class="icon" aria-hidden="true"><use href="#i-install"/></svg>
+            <span data-i18n="hero.install">Add to home screen</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick facts -->
+      <div class="quick" role="list">
+        <a class="quick-item" role="listitem" href="#checkin">
+          <svg class="icon" aria-hidden="true"><use href="#i-checkin"/></svg>
+          <span class="quick-label" data-i18n="quick.checkin">Check-in</span>
+          <span class="quick-value" data-i18n="quick.checkinValue">from 18:00</span>
+        </a>
+        <a class="quick-item" role="listitem" href="#checkin">
+          <svg class="icon" aria-hidden="true"><use href="#i-checkout"/></svg>
+          <span class="quick-label" data-i18n="quick.checkout">Check-out</span>
+          <span class="quick-value" data-i18n="quick.checkoutValue">until 12:00</span>
+        </a>
+        <button class="quick-item" role="listitem" type="button" data-copy-wifi>
+          <svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg>
+          <span class="quick-label" data-i18n="quick.wifi">Wi-Fi</span>
+          <span class="quick-value" data-i18n="quick.wifiValue">Copy password</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ===================== GUIDE INDEX ===================== -->
+    <section class="section guide" id="guide" aria-labelledby="guide-title">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="guide.eyebrow">Guest Guide</p>
+        <h2 id="guide-title" data-i18n="guide.title">Everything for your stay</h2>
+        <p class="lead" data-i18n="guide.text">Choose a topic to find the information you need in seconds.</p>
+      </header>
+      <ul class="guide-grid">
+        <li class="reveal"><a class="guide-card" href="#welcome"><span class="guide-icon"><svg class="icon" aria-hidden="true"><use href="#i-welcome"/></svg></span><span class="guide-text"><strong data-i18n="nav.welcome">Welcome</strong><small data-i18n="guide.welcome">A word from our team</small></span><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+        <li class="reveal"><a class="guide-card" href="#checkin"><span class="guide-icon"><svg class="icon" aria-hidden="true"><use href="#i-key"/></svg></span><span class="guide-text"><strong data-i18n="nav.checkin">Check-in &amp; Check-out</strong><small data-i18n="guide.checkin">Times and luggage storage</small></span><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+        <li class="reveal"><a class="guide-card" href="#meals"><span class="guide-icon"><svg class="icon" aria-hidden="true"><use href="#i-meals"/></svg></span><span class="guide-text"><strong data-i18n="nav.meals">Restaurant &amp; Meals</strong><small data-i18n="guide.meals">Breakfast, lunch and dinner</small></span><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+        <li class="reveal"><a class="guide-card" href="#wifi"><span class="guide-icon"><svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg></span><span class="guide-text"><strong data-i18n="nav.wifi">Wi-Fi</strong><small data-i18n="guide.wifi">Network and password</small></span><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+        <li class="reveal"><a class="guide-card" href="#bar"><span class="guide-icon"><svg class="icon" aria-hidden="true"><use href="#i-bar"/></svg></span><span class="guide-text"><strong data-i18n="nav.bar">Bar</strong><small data-i18n="guide.bar">Location and opening hours</small></span><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+        <li class="reveal"><a class="guide-card" href="#rules"><span class="guide-icon"><svg class="icon" aria-hidden="true"><use href="#i-rules"/></svg></span><span class="guide-text"><strong data-i18n="nav.rules">Hotel Rules</strong><small data-i18n="guide.rules">For everyone's peace and rest</small></span><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+        <li class="reveal"><a class="guide-card" href="#eat"><span class="guide-icon"><svg class="icon" aria-hidden="true"><use href="#i-fork"/></svg></span><span class="guide-text"><strong data-i18n="nav.eat">Places to Eat</strong><small data-i18n="guide.eat">Our suggestion nearby</small></span><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+        <li class="reveal"><a class="guide-card" href="#visit"><span class="guide-icon"><svg class="icon" aria-hidden="true"><use href="#i-visit"/></svg></span><span class="guide-text"><strong data-i18n="nav.visit">Places to Visit</strong><small data-i18n="guide.visit">Aljustrel, home of the shepherd children</small></span><svg class="icon chev" aria-hidden="true"><use href="#i-chevron"/></svg></a></li>
+      </ul>
+    </section>
+
+    <!-- ===================== WELCOME ===================== -->
+    <section class="section welcome" id="welcome" aria-labelledby="welcome-title">
+      <div class="split">
+        <figure class="photo photo-tall reveal">
+          <img src="./assets/images/lobby-reception.jpg" alt="" width="1400" height="1050" loading="lazy" decoding="async" data-i18n-attr="alt:welcome.photoCaption">
+          <figcaption data-i18n="welcome.photoCaption">Reception</figcaption>
+        </figure>
+        <div class="split-text reveal">
+          <p class="eyebrow" data-i18n="welcome.eyebrow">Welcome</p>
+          <h2 id="welcome-title" data-i18n="welcome.title">It is a joy to welcome you</h2>
+          <p data-i18n="welcome.p1">Thank you for choosing Casa São Nuno for your stay in Fátima.</p>
+          <p data-i18n="welcome.p2">We wish you a peaceful stay, full of good moments.</p>
+          <p class="signature" data-i18n="welcome.signature">The Casa São Nuno team</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CHECK-IN / CHECK-OUT ===================== -->
+    <section class="section tinted" id="checkin" aria-labelledby="checkin-title">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="checkin.eyebrow">Your stay</p>
+        <h2 id="checkin-title" data-i18n="checkin.title">Check-in &amp; Check-out</h2>
+      </header>
+      <div class="time-grid">
+        <article class="time-card reveal">
+          <span class="round-icon"><svg class="icon" aria-hidden="true"><use href="#i-checkin"/></svg></span>
+          <h3 data-i18n="checkin.checkinLabel">Check-in</h3>
+          <p class="time-big" data-i18n="checkin.checkinTime">From 18:00</p>
+        </article>
+        <article class="time-card reveal">
+          <span class="round-icon"><svg class="icon" aria-hidden="true"><use href="#i-checkout"/></svg></span>
+          <h3 data-i18n="checkin.checkoutLabel">Check-out</h3>
+          <p class="time-big" data-i18n="checkin.checkoutTime">Until 12:00</p>
+        </article>
+        <article class="time-card reveal">
+          <span class="round-icon"><svg class="icon" aria-hidden="true"><use href="#i-group"/></svg></span>
+          <h3 data-i18n="checkin.groupsLabel">Groups</h3>
+          <p class="time-big" data-i18n="checkin.groupsTime">Until 11:00</p>
+          <p class="time-note" data-i18n="checkin.groupsText">Guests travelling in a group are kindly asked to check out by 11:00.</p>
+        </article>
+      </div>
+      <article class="feature-card reveal">
+        <span class="round-icon round-icon-lg"><svg class="icon" aria-hidden="true"><use href="#i-luggage"/></svg></span>
+        <div>
+          <h3 data-i18n="checkin.luggageTitle">Luggage storage</h3>
+          <p data-i18n="checkin.luggageText">No need to worry about your luggage.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===================== MEALS ===================== -->
+    <section class="section" id="meals" aria-labelledby="meals-title">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="meals.eyebrow">Restaurant</p>
+        <h2 id="meals-title" data-i18n="meals.title">Restaurant &amp; Meals</h2>
+        <p class="lead" data-i18n="meals.intro">Enjoy your meals in a calm and welcoming atmosphere.</p>
+      </header>
+      <div class="meal-grid">
+        <!-- To use a real photo: replace assets/images/breakfast.jpg and delete the <span class="illus-badge"> line below -->
+        <article class="meal-card reveal">
+          <figure class="meal-media">
+            <img src="./assets/images/breakfast.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            <span class="illus-badge" data-i18n="common.illustrative">Illustrative image</span>
+          </figure>
+          <div class="meal-body">
+            <div class="meal-title"><svg class="icon" aria-hidden="true"><use href="#i-coffee"/></svg><h3 data-i18n="meals.breakfast">Breakfast</h3></div>
+            <dl class="meal-info">
+              <div><dt><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span data-i18n="meals.hoursLabel">Hours</span></dt><dd class="meal-time" data-i18n="meals.breakfastHours">08:00 – 10:30</dd></div>
+              <div><dt><svg class="icon" aria-hidden="true"><use href="#i-stairs"/></svg><span data-i18n="meals.locationLabel">Location</span></dt><dd data-i18n="meals.groundFloor">Ground floor</dd></div>
+            </dl>
+          </div>
+        </article>
+        <article class="meal-card reveal">
+          <figure class="meal-media">
+            <img src="./assets/images/lunch.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            <span class="illus-badge" data-i18n="common.illustrative">Illustrative image</span>
+          </figure>
+          <div class="meal-body">
+            <div class="meal-title"><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg><h3 data-i18n="meals.lunch">Lunch</h3></div>
+            <dl class="meal-info">
+              <div><dt><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span data-i18n="meals.hoursLabel">Hours</span></dt><dd class="meal-time" data-i18n="meals.lunchHours">12:30 – 15:00</dd></div>
+              <div><dt><svg class="icon" aria-hidden="true"><use href="#i-stairs"/></svg><span data-i18n="meals.locationLabel">Location</span></dt><dd data-i18n="meals.firstFloor">1st floor</dd></div>
+            </dl>
+          </div>
+        </article>
+        <article class="meal-card reveal">
+          <figure class="meal-media">
+            <img src="./assets/images/dinner.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+            <span class="illus-badge" data-i18n="common.illustrative">Illustrative image</span>
+          </figure>
+          <div class="meal-body">
+            <div class="meal-title"><svg class="icon" aria-hidden="true"><use href="#i-moon"/></svg><h3 data-i18n="meals.dinner">Dinner</h3></div>
+            <dl class="meal-info">
+              <div><dt><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span data-i18n="meals.hoursLabel">Hours</span></dt><dd class="meal-time" data-i18n="meals.dinnerHours">19:00 – 21:00</dd></div>
+              <div><dt><svg class="icon" aria-hidden="true"><use href="#i-stairs"/></svg><span data-i18n="meals.locationLabel">Location</span></dt><dd data-i18n="meals.firstFloor">1st floor</dd></div>
+            </dl>
+          </div>
+        </article>
+      </div>
+      <aside class="notice reveal" role="note">
+        <span class="notice-icon"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg></span>
+        <div>
+          <p class="notice-title" data-i18n="meals.noticeTitle">Please note</p>
+          <p data-i18n="meals.noticeText">If you enter the dining room during the last 30 minutes of service, some dishes may no longer be replenished.</p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ===================== WI-FI ===================== -->
+    <section class="section tinted" id="wifi" aria-labelledby="wifi-title">
+      <div class="wifi-card reveal">
+        <div class="wifi-halo" aria-hidden="true"><svg class="icon"><use href="#i-wifi"/></svg></div>
+        <p class="eyebrow" data-i18n="wifi.eyebrow">Stay connected</p>
+        <h2 id="wifi-title" data-i18n="wifi.title">Wi-Fi</h2>
+        <p class="lead" data-i18n="wifi.intro">Connect to our wireless network with the details below.</p>
+        <dl class="wifi-rows">
+          <div class="wifi-row">
+            <dt><svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg><span data-i18n="wifi.network">Network</span></dt>
+            <dd class="wifi-value" translate="no">Casa São Nuno</dd>
+          </div>
+          <div class="wifi-row">
+            <dt><svg class="icon" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="wifi.password">Password</span></dt>
+            <dd class="wifi-value wifi-pass" translate="no" data-wifi-password>12345678</dd>
+          </div>
+        </dl>
+        <button class="btn btn-primary btn-wide" type="button" data-copy-wifi>
+          <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>
+          <span data-i18n="wifi.copy">Copy password</span>
+        </button>
+        <p class="wifi-help" data-i18n="wifi.help">Open your phone's Wi-Fi settings, select the network and paste or type the password.</p>
+      </div>
+    </section>
+
+    <!-- ===================== BAR ===================== -->
+    <section class="section" id="bar" aria-labelledby="bar-title">
+      <div class="split split-reverse">
+        <div class="bar-photos reveal">
+          <figure class="photo photo-main">
+            <img src="./assets/images/bar-lounge.jpg" alt="" width="1400" height="933" loading="lazy" decoding="async" data-i18n-attr="alt:bar.title">
+          </figure>
+          <figure class="photo photo-inset">
+            <img src="./assets/images/bar-terrace-view.jpg" alt="" width="1400" height="933" loading="lazy" decoding="async" data-i18n-attr="alt:bar.title">
+          </figure>
+        </div>
+        <div class="split-text reveal">
+          <p class="eyebrow" data-i18n="bar.eyebrow">Bar</p>
+          <h2 id="bar-title" data-i18n="bar.title">The Bar</h2>
+          <p data-i18n="bar.text">A bright and welcoming space to unwind at the end of the day.</p>
+          <ul class="facts">
+            <li><span class="round-icon"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span><div><small data-i18n="meals.locationLabel">Location</small><strong data-i18n="bar.location">1st floor, next to the restaurant</strong></div></li>
+            <li><span class="round-icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></span><div><small data-i18n="meals.hoursLabel">Hours</small><strong data-i18n="bar.hours">16:00 – 00:00</strong></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RULES ===================== -->
+    <section class="section tinted" id="rules" aria-labelledby="rules-title">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="rules.eyebrow">Living together</p>
+        <h2 id="rules-title" data-i18n="rules.title">Hotel Rules</h2>
+        <p class="lead" data-i18n="rules.intro">To ensure a pleasant stay for everyone, we kindly ask for your cooperation.</p>
+      </header>
+      <div class="rules-grid">
+        <article class="rule-card reveal">
+          <span class="round-icon round-icon-lg"><svg class="icon" aria-hidden="true"><use href="#i-nosmoke"/></svg></span>
+          <h3 data-i18n="rules.smokingTitle">Non-smoking hotel</h3>
+          <p data-i18n="rules.smokingText">Smoking is not permitted anywhere on the hotel premises.</p>
+        </article>
+        <article class="rule-card reveal">
+          <span class="round-icon round-icon-lg"><svg class="icon" aria-hidden="true"><use href="#i-quiet"/></svg></span>
+          <h3 data-i18n="rules.quietTitle">Quiet hours</h3>
+          <p data-i18n="rules.quietText">After 23:00, we kindly ask you to avoid making noise.</p>
+        </article>
+      </div>
+      <p class="thanks reveal" data-i18n="rules.thanks">Thank you for your understanding.</p>
+    </section>
+
+    <!-- ===================== PLACES TO EAT ===================== -->
+    <section class="section" id="eat" aria-labelledby="eat-title">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="eat.eyebrow">Places to eat</p>
+        <h2 id="eat-title" data-i18n="eat.title">Places to Eat</h2>
+        <p class="lead" data-i18n="eat.intro">Our suggestion for a meal in Fátima.</p>
+      </header>
+      <article class="place-card reveal">
+        <figure class="place-media">
+          <img src="./assets/images/restaurant-d-duarte.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+          <span class="illus-badge" data-i18n="common.illustrative">Illustrative image</span>
+        </figure>
+        <div class="place-body">
+          <p class="tag"><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg><span data-i18n="eat.recommended">Recommendation</span></p>
+          <h3 translate="no">Restaurante D. Duarte</h3>
+          <p class="address">
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span><small data-i18n="eat.addressLabel">Address</small>
+            <span translate="no">R. São Francisco de Assis, n.º 57<br>2495-432 Fátima, Portugal</span></span>
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/search/?api=1&amp;query=Restaurante%20D.%20Duarte%2C%20R.%20S%C3%A3o%20Francisco%20de%20Assis%2057%2C%202495-432%20F%C3%A1tima%2C%20Portugal">
+              <svg class="icon" aria-hidden="true"><use href="#i-map"/></svg><span data-i18n="maps.view">View on Google Maps</span>
+            </a>
+            <a class="btn btn-outline" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/dir/?api=1&amp;destination=R.%20S%C3%A3o%20Francisco%20de%20Assis%2057%2C%202495-432%20F%C3%A1tima%2C%20Portugal">
+              <svg class="icon" aria-hidden="true"><use href="#i-route"/></svg><span data-i18n="maps.directions">Get Directions</span>
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===================== PLACES TO VISIT ===================== -->
+    <section class="section tinted" id="visit" aria-labelledby="visit-title">
+      <header class="section-head reveal">
+        <p class="eyebrow" data-i18n="visit.eyebrow">Places to visit</p>
+        <h2 id="visit-title" data-i18n="visit.title">Places to Visit</h2>
+        <p class="lead" data-i18n="visit.intro">Fátima and its surroundings hold places of deep historical and spiritual meaning.</p>
+      </header>
+      <article class="place-card place-card-feature reveal">
+        <!-- To use a real photo: replace assets/images/aljustrel.jpg and delete the <span class="illus-badge"> line below -->
+        <figure class="place-media">
+          <img src="./assets/images/aljustrel.jpg" alt="" width="1200" height="800" loading="lazy" decoding="async">
+          <span class="illus-badge" data-i18n="common.illustrative">Illustrative image</span>
+        </figure>
+        <div class="place-body">
+          <p class="tag"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span translate="no">Aljustrel · Fátima</span></p>
+          <h3 data-i18n="visit.aljTitle">Aljustrel</h3>
+          <p class="place-subtitle" data-i18n="visit.aljSubtitle">The land of the three shepherd children</p>
+          <p data-i18n="visit.aljP1">Aljustrel is a small village known as the birthplace of the three shepherd children of Fátima.</p>
+          <p data-i18n="visit.aljP2">It is a place of great historical and spiritual importance.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/search/?api=1&amp;query=Aljustrel%2C%202495%20F%C3%A1tima%2C%20Portugal">
+              <svg class="icon" aria-hidden="true"><use href="#i-map"/></svg><span data-i18n="maps.view">View on Google Maps</span>
+            </a>
+            <a class="btn btn-outline" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/dir/?api=1&amp;destination=Aljustrel%2C%202495%20F%C3%A1tima%2C%20Portugal">
+              <svg class="icon" aria-hidden="true"><use href="#i-route"/></svg><span data-i18n="maps.directions">Get Directions</span>
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <img src="./assets/images/logo-casa-sao-nuno.png" alt="Casa São Nuno Hotel" width="74" height="100" loading="lazy" class="footer-logo">
+    <p class="footer-tagline" data-i18n="hero.subtitle">Your stay, our hospitality.</p>
+    <div class="ornament" aria-hidden="true"><span></span><svg class="icon"><use href="#i-star"/></svg><span></span></div>
+    <p class="footer-help" data-i18n="footer.help">Need anything? Our reception team will be delighted to help.</p>
+    <p class="footer-place" data-i18n="footer.place">Casa São Nuno · Fátima, Portugal</p>
+  </footer>
+
+  <!-- Back to top -->
+  <a class="to-top" href="#home" data-to-top data-i18n-attr="aria-label:nav.backToTop" aria-label="Back to top">
+    <svg class="icon" aria-hidden="true"><use href="#i-up"/></svg>
+  </a>
+
+  <!-- Toast -->
+  <div class="toast" role="status" aria-live="polite" data-toast hidden>
+    <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-toast-text></span>
+  </div>
+
+  <!-- Install sheet -->
+  <div class="sheet-backdrop" data-install-close hidden></div>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="install-title" data-install-sheet hidden>
+    <button class="icon-btn sheet-close" type="button" data-install-close data-i18n-attr="aria-label:install.close">
+      <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+    <img src="./assets/icons/icon-192.png" alt="" width="64" height="64" class="sheet-icon">
+    <h2 id="install-title" data-i18n="install.title">Keep the guide on your phone</h2>
+    <p class="sheet-text" data-i18n="install.text">Add the guide to your home screen and open it like an app.</p>
+    <p class="sheet-installed" data-i18n="install.installed" data-install-done hidden>The guide is already installed on this device.</p>
+    <div class="steps" data-steps="ios">
+      <h3><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg><span data-i18n="install.iosTitle">On iPhone / iPad (Safari)</span></h3>
+      <ol><li data-i18n="install.ios1"></li><li data-i18n="install.ios2"></li><li data-i18n="install.ios3"></li></ol>
+    </div>
+    <div class="steps" data-steps="android">
+      <h3><svg class="icon" aria-hidden="true"><use href="#i-install"/></svg><span data-i18n="install.androidTitle">On Android (Chrome)</span></h3>
+      <ol><li data-i18n="install.android1"></li><li data-i18n="install.android2"></li><li data-i18n="install.android3"></li></ol>
+    </div>
+    <div class="steps" data-steps="desktop">
+      <h3><svg class="icon" aria-hidden="true"><use href="#i-install"/></svg><span data-i18n="install.desktopTitle">On a computer</span></h3>
+      <ol><li data-i18n="install.desktop1"></li></ol>
+    </div>
+    <button class="btn btn-primary btn-wide" type="button" data-install-close><span data-i18n="install.close">Close</span></button>
+  </div>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
